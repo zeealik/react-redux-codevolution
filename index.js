@@ -1,5 +1,9 @@
+// REQUIRE STATEMENTS
 const redux = require("redux");
 const reduxLogger = require("redux-logger");
+
+
+// DECLARATIONS
 const createStore = redux.createStore;
 const combineReducers = redux.combineReducers;
 const applyMiddleware = redux.applyMiddleware;
